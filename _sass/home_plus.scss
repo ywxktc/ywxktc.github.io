@@ -1,0 +1,16 @@
+.post-list-row {
+  display: flex;
+}
+
+.post-list-link {
+  display: flex;
+  flex: 50%;
+}
+
+.post-list-date {
+  display: flex;
+  align-items: center;
+  color: cadetblue;
+  margin-left: auto;
+  font-family: monospace;
+}

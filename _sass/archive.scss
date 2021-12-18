@@ -1,0 +1,29 @@
+.category-wrapper {
+  padding-bottom: 15px;
+}
+
+.category-header {
+  font-size: 25px;
+  color: #244348;
+}
+
+.category-content {
+  padding-left: 4px;
+}
+
+.category-row {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.category-link {
+  display: flex;
+}
+
+.category-link-date {
+  display: flex;
+  align-items: center;
+  color: cadetblue;
+  margin-left: auto;
+  font-family: monospace;
+}

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="archive">
+  <div class="categories-list">
+    {% for item in site.data.categories%}
+    <!-- 一个cateogry -->
+    <div class="category-wrapper">
+      <!-- category的标题 -->
+      <div class="category-header"> {{ item.name }} </div>
+      <!-- 内容 -->
+      <div class="category-content">
+        {% for post in site.posts %}
+          {% if post.categories contains item.name %}
+            <!-- 文章的链接 -->
+            <div class="category-row">
+              <div class="category-link">
+                <a class="category-post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>
+              </div>
+              <div class="category-link-date">
+                {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+                {{post.date | date: date_format }}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,1 +1,10 @@
-theme: jekyll-theme-minimal
+title: YWXK's Blog
+email: 1453018126@qq.com
+description: >- # this means to ignore newlines until "baseurl:"
+  这人很懒，没什么描述~
+
+github_username:  ywxktc
+
+# Build settings
+plugins:
+  - jekyll-feed
