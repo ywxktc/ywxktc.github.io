@@ -276,7 +276,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .category-wrapper { padding-bottom: 15px; }
 
-.category-header { font-size: 25px; color: #244348; }
+.category-header { color: #ffffff; width: fit-content; background-color: #0eaedd; border-radius: 999em; padding-left: 10px; padding-right: 10px; }
 
 .category-content { padding-left: 4px; }
 
