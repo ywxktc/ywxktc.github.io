@@ -1,11 +1,14 @@
 ---
 layout: post
-title: 文章标题
-date: 2022-02-22
-categories: C++, 设计模式
+title: "文章标题"
+date: 2022-02-22 +0800
+categories:
+ - C++
+ - 设计模式
 
 ---
 
 # 此乃内容
 
 ## 此乃二级标题
+
